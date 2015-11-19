@@ -1,0 +1,391 @@
+body{
+	background-image: url("../images/wood.jpg");
+}
+
+.pagehead {
+	margin: 100px 5px 100px 100px;
+	font-family: "Nothing You Could Do";
+	font-size: 100px;
+	font-style: bold;
+	color:white;
+}
+
+.fa-music{
+	color: #08EF08;
+	animation: pulse 2.5s infinite;
+	letter-spacing: 3px;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .45;
+  }
+  50% {
+  	opacity: 1
+  }
+  100% {
+    opacity: .45;
+  }
+}
+
+
+.icons a {
+	color: #08EF08;
+	display: inline-block;
+	margin: 100px 0px 100px 0px;
+}
+
+.falala{
+	width:100%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.cnote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #81CA76;
+	border: solid #08EF08 3px;
+	opacity: .5;
+}
+
+.cnote:hover{
+	opacity: 1;
+}
+
+.cnote:active{
+	opacity: 1;
+}
+
+.dnote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #64E064;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left:100px;
+}
+
+.dnote:hover{
+	opacity: 1;
+}
+
+.dnote:active{
+	opacity: 1;
+}
+
+.enote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #35DA35;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left: 200px;
+}
+
+
+.enote:active{
+	opacity: 1;
+}
+
+.enote:hover{
+	opacity: 1;
+}
+
+.fnote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #08EF08;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left: 300px;
+}
+
+.fnote:hover{
+	opacity: 1;
+}
+
+.fnote:active{
+	opacity: 1;
+}
+
+.gnote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #04A204;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left: 250px;
+	margin-top: -650px;
+}
+
+.gnote:hover{
+	opacity: 1;
+}
+
+.gnote:active{
+	opacity: 1;
+}
+
+.anote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #148614;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left:355px;
+}
+
+.anote:active{
+	opacity: 1;
+}
+
+.anote:hover{
+	opacity: 1;
+}
+
+.bnote {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #0E630E;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left:475px;
+	margin-top:5px;
+}
+
+.bnote:hover{
+	opacity: 1;
+}
+
+.bnote:active{
+	opacity: 1;
+}
+
+.highc {
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background: #003100;
+	border: solid #08EF08 3px;
+	opacity: .5;
+	margin-left:585px;
+	margin-top: 5px;
+}
+
+.highc:hover{
+	opacity: 1;
+}
+
+.highc:active{
+	opacity: 1;
+}
+
+@media (max-width: 817px) {
+  .pagehead {
+    float: left;
+    width: 100%;
+    margin-left: 35px;
+    margin-bottom: 0;
+    font-size: 80px;
+    margin-top: 45px;
+  }
+  span.icons{
+  	position: absolute;
+  	top: 30px;
+  	left: 35px;
+  }
+  .anote{
+  	width:150px;
+  	height:150px;
+  	position: absolute;
+  	left: -115px;
+  	top: 400px;
+  }
+  .bnote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: -70px;
+  	top: 395px;
+  }
+  .cnote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: 60px;
+  	top: 190px;
+  }
+  .dnote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: 125px;
+  	top: 190px;
+  }
+  .enote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: 190px;
+  	top: 195px;
+  }
+  .fnote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: 260px;
+  	top: 195px;
+  }
+  .gnote{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: -180px;
+  	top: 1050px;
+  }
+  .highc{
+  	width: 150px;
+  	height: 150px;
+  	position: absolute;
+  	left: -12px;
+  	top: 390px;
+  }
+}
+
+@media (max-width: 720px) {
+	.cnote{
+		width: 90px;
+		height: 90px;
+	}
+	.dnote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		left: 90px;
+	}	
+	.enote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		left: 128px;
+		top: 190px
+	}	
+	.fnote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		left: 170px;
+		top: 190px;
+	}	
+	.gnote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		top: 1000px;
+		left: -190px;
+	}
+	.anote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		top: 345px;
+		left: -165px;
+	}	
+	.bnote{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		top: 340px;
+		left: -140px;
+	}	
+	.highc{
+		width: 90px;
+		height: 90px;
+		position: absolute;
+		top: 340px;
+		left:-110px;
+	}			
+}
+
+@media (max-width: 540px) {
+  .pagehead {
+    float: left;
+    width: 100%;
+    margin-left: 45px;
+    margin-bottom: 0;
+    font-size: 72px;
+    margin-top: 45px;
+  }
+  span.icons{
+  	position: absolute;
+  	top: 30px;
+  	left: 45px;
+  }
+  .anote{
+  	width:100px;
+  	height:100px;
+  	position: absolute;
+  	left: -125px;
+  	top: 320px;
+  }
+  .bnote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -245px;
+  	top: 435px;
+  }
+  .cnote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: 75px;
+  	top: 205px;
+  }
+  .dnote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -26px;
+  	top: 322px;
+  }
+  .enote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -125px;
+  	top: 440px;
+  }
+  .fnote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -222px;
+  	top: 558px;
+  }
+  .gnote{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -20px;
+  	top: 855px;
+  }
+  .highc{
+  	width: 100px;
+  	height: 100px;
+  	position: absolute;
+  	left: -352px;
+  	top: 550px;
+  }
+}
+
+
+
