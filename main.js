@@ -59,5 +59,13 @@ $(".highc").click(function() {
 		singHighC.play();
 });
 
+$(document).ready(function() {
+    $(".nav").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+
 
 });
